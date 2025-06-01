@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!nombre || !correo || !mensaje) {
       alert("Por favor, llena todos los campos.");
-      e.preventDefault(); // Evita el envío
+      e.preventDefault(); 
     }
   });
 });
